@@ -4,6 +4,18 @@ The Hospitality Booking Data Repository Documentation gives a detailed and organ
 # TOOLS
 Microsoft Excel
 Microsoft PowerBi
+# PROCESS
+DATA WRANGLING AND DATA CLEANING
+Open data into Microsoft Excel to inspect and save
+Open Microsoft PowerBi
+Click import data from excel and click transform data
+Load a powerquery editor
+Check each column for consistency and choose the appropriate data type for the respective column
+For the booking date/arrival date column, choose the split column from the transform ribbon to split the column into day, month and year
+Choose the custom option and input '/', choose split at "Each occurrence of the delimiter" and click Ok.
+Save changes in the Powereditor query.
+Click on the report view to start generating reports to address each objective of the analysis.
+
 # OBJECTIVES
 Booking Patterns:
 What is the trend in booking patterns over time, and are there specific seasons or months with increased booking activity?
